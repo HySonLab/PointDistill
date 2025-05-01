@@ -169,8 +169,8 @@ Our topology-guided knowledge distillation framework achieves state-of-the-art p
 
 **Key Highlights**:
 - **Efficiency**: The student model is **16.6× smaller** (2.78M vs. 46.16M parameters), uses **4.5× less memory** (3.57 GB vs. 16.05 GB), and achieves a **1.64× faster inference speed** (27.64 FPS vs. 16.61 FPS) compared to the teacher on NuScenes (Tables 5, 6).
-- **Performance**: On NuScenes, our student model achieves **78.1% mIoU**, surpassing prior LiDAR-only knowledge distillation methods (e.g., 68.6% for VueNet3D [55]) and competing with efficient baselines like SPVNAS (Table 4).
+- **Performance**: On NuScenes, our student model achieves **78.1% mIoU**, surpassing prior LiDAR-only knowledge distillation methods and competing with efficient baselines like SPVNAS (Table 4).
 - **Ablation**: The full distillation framework (ℒ_topo + ℒ_grad + ℒ_KLD + ℒ_seg) improves mIoU by **+4.1%** on NuScenes compared to the baseline (ℒ_KLD + ℒ_seg, 74.0% mIoU), demonstrating the value of topology-aware and gradient-guided losses (Table 7).
 - **Visualization**: The student model produces clean boundaries and consistent predictions, closely matching the teacher and ground truth on NuScenes (Figure 4).
 - **Note**: The teacher model (Point Transformer V3) was trained from scratch, as pre-trained weights were not released by the authors at the time of this project, ensuring a fair and reproducible evaluation.
-- **Acknowledgment**: We acknowledge the Pointcept codebase [Pointcept Contributors, 2023] for providing a robust foundation for point cloud perception research, which significantly facilitated the development and evaluation of our topology-guided knowledge distillation framework.
+- **Acknowledgment**: We acknowledge the Pointcept codebase [Pointcept Contributors, 2023](https://github.com/Pointcept/Pointcept/) for providing a robust foundation for point cloud perception research, which significantly facilitated the development and evaluation of our topology-guided knowledge distillation framework.
