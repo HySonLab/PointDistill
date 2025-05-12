@@ -4,7 +4,7 @@ evaluate = True
 test_only = False
 seed = 28024989
 save_path = 'exp/nuscenes/semseg-pt-v3m1-0-distill'
-miou_result_path = f"/home/luutunghai@gmail.com/projects/PTv3-distill/{save_path}/miou_result"
+miou_result_path = f"/home/.../projects/PTv3-distill/{save_path}/miou_result"
 
 num_worker = 1
 batch_size = 1  # takes 79 Gb RAMs on A100

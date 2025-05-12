@@ -21,7 +21,7 @@ scheduler = dict(
 )
 param_dicts = [dict(keyword="block", lr=0.0002)]
 
-data_root = '/home/luutunghai@gmail.com/projects/PTv3-distill/mini_dataset'
+data_root = '/home/.../projects/PTv3-distill/mini_dataset'
 ignore_index = -1
 dataset_type = "NuScenesDataset"
 names = [
