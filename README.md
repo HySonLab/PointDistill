@@ -1,6 +1,6 @@
 # Topology-Guided Knowledge Distillation for Efficient Point Cloud Processing
 
-This repository is the official implementation of [Topology-Guided Knowledge Distillation for Efficient Point Cloud Processing](https://arxiv.org/abs/2030.12345)
+This repository is the official implementation of [Topology-Guided Knowledge Distillation for Efficient Point Cloud Processing](https://arxiv.org/abs/2505.08101)
 
 <div align='middle'>
 <img src="images/point_cloud_distillation.champion-arch.white-background.png" alt="teaser" width="800" />
@@ -181,3 +181,17 @@ Our topology-guided knowledge distillation framework achieves state-of-the-art p
 - **Visualization**: The student model produces clean boundaries and consistent predictions, closely matching the teacher and ground truth on NuScenes (Figure 4).
 - **Note**: The teacher model (Point Transformer V3) was trained from scratch, as pre-trained weights were not released by the authors at the time of this project, ensuring a fair and reproducible evaluation.
 - **Acknowledgment**: We acknowledge the Pointcept codebase [Pointcept Contributors, 2023](https://github.com/Pointcept/Pointcept/) for providing a robust foundation for point cloud perception research, which significantly facilitated the development and evaluation of our topology-guided knowledge distillation framework.
+
+## If our work is useful, please cite it!
+
+```bibtex
+  @misc{hai2025topologyguidedknowledgedistillationefficient,
+      title={Topology-Guided Knowledge Distillation for Efficient Point Cloud Processing}, 
+      author={Luu Tung Hai and Thinh D. Le and Zhicheng Ding and Qing Tian and Truong-Son Hy},
+      year={2025},
+      eprint={2505.08101},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.08101}, 
+}
+```
