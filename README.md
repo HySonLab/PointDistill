@@ -47,6 +47,13 @@ pip install "git+https://github.com/facebookresearch/pytorch3d.git@stable"
 pip install flash-attn --no-build-isolation
 ```
 
+Install Ripser++:
+For the latest release of ripser++:
+```
+pip install git+https://github.com/simonzhang00/ripser-plusplus.git
+```
+Or if you have any difficulty in installing ripser++, please follow this [Link] (https://github.com/simonzhang00/ripser-plusplus)
+
 To run experiments after installation:
 
 ```run experiments
