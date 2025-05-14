@@ -52,7 +52,7 @@ For the latest release of ripser++:
 ```
 pip install git+https://github.com/simonzhang00/ripser-plusplus.git
 ```
-Or if you have any difficulty in installing ripser++, please follow this [Link] (https://github.com/simonzhang00/ripser-plusplus)
+Or if you have any difficulty in installing ripser++, please follow this [Link](https://github.com/simonzhang00/ripser-plusplus)
 
 To run experiments after installation:
 
