@@ -149,20 +149,19 @@ save_path
 miou_result_path
 data_root
 ```
-## Training
 
-To train the model(s) in the paper, run this command:
+## Train Teacher
+- Train the Teacher to get the pre-trained Teacher
+```train
+python train_teacher.py
+```
+
+## Training and Evaluation
+
+To train and evaluate the model(s) in the paper, run this command:
 
 ```train
 python train.py 
-```
-
-## Evaluation
-
-To evaluate my model on NuScenes, run:
-
-```eval
-python eval.py --model-file mymodel.pth --benchmark nuscenes
 ```
 
 ## Results
