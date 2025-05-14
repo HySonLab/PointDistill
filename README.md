@@ -182,9 +182,9 @@ Our topology-guided knowledge distillation framework achieves state-of-the-art p
 - **Note**: The teacher model (Point Transformer V3) was trained from scratch, as pre-trained weights were not released by the authors at the time of this project, ensuring a fair and reproducible evaluation.
 - **Acknowledgment**: We acknowledge the Pointcept codebase [Pointcept Contributors, 2023](https://github.com/Pointcept/Pointcept/) for providing a robust foundation for point cloud perception research, which significantly facilitated the development and evaluation of our topology-guided knowledge distillation framework.
 
-  ## If our work is useful, please cite it!
+## If our work is useful, please cite it!
 
-  ```bibtex
+```bibtex
   @misc{hai2025topologyguidedknowledgedistillationefficient,
       title={Topology-Guided Knowledge Distillation for Efficient Point Cloud Processing}, 
       author={Luu Tung Hai and Thinh D. Le and Zhicheng Ding and Qing Tian and Truong-Son Hy},
