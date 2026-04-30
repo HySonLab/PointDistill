@@ -1,6 +1,8 @@
 # Topology-Guided Knowledge Distillation for Efficient Point Cloud Processing
 
-This repository is the official implementation of [Topology-Guided Knowledge Distillation for Efficient Point Cloud Processing]([https://arxiv.org/abs/2505.08101](https://openreview.net/pdf?id=lP2phGa5af))
+This repository is the official implementation of *Topology-Guided Knowledge Distillation for Efficient Point Cloud Processing*:
+* Published at *Transactions on Machine Learning Research (TMLR)*: https://openreview.net/pdf?id=lP2phGa5af
+* Preprint: https://arxiv.org/abs/2505.08101
 
 <div align='middle'>
 <img src="images/point_cloud_distillation.champion-arch.white-background.png" alt="teaser" width="800" />
